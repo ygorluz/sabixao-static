@@ -1,0 +1,1 @@
+var e=`/`.replace(/\/$/,``);function t(t){return!t.startsWith(`/`)||t.startsWith(`//`)||e&&(t===e||t.startsWith(e+`/`))?t:e+t}var n=(e,t)=>{let n=e.__vccOpts||e;for(let[e,r]of t)n[e]=r;return n};export{t as n,n as t};
