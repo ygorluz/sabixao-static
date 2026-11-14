@@ -1,0 +1,1 @@
+async function e(e,t,n){let r=await fetch(`/api/admin/github`,{method:`POST`,headers:{"Content-Type":`application/json`},body:JSON.stringify({action:e,path:t,...n})});if(!r.ok){let e=await r.json().catch(()=>({}));throw Error(e.error||`Erro ${r.status} na API`)}return r.json()}export{e as t};

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eff6ff"/>
+      <stop offset="100%" stop-color="#dbeafe"/>
+    </linearGradient>
+    <linearGradient id="cap" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="36" fill="url(#bg)"/>
+  <!-- Circle base -->
+  <circle cx="64" cy="64" r="48" fill="#ffffff" stroke="#bfdbfe" stroke-width="2"/>
+  <!-- Book base -->
+  <path d="M42 76 C48 73 58 73 64 76 C70 73 80 73 86 76 V92 C80 89 70 89 64 92 C58 89 48 89 42 92 Z" fill="#93c5fd"/>
+  <path d="M64 76 V92" stroke="#ffffff" stroke-width="2"/>
+  <!-- Mortarboard cap -->
+  <polygon points="64,34 98,49 64,64 30,49" fill="url(#cap)"/>
+  <path d="M44 57 V74 C44 80 84 80 84 74 V57" fill="none" stroke="#2563eb" stroke-width="4" stroke-linecap="round"/>
+  <!-- Tassel -->
+  <path d="M92 52 V70 L97 73" fill="none" stroke="#f59e0b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="97" cy="74" r="3" fill="#f59e0b"/>
+  <!-- Sparkles -->
+  <circle cx="36" cy="36" r="3" fill="#fbbf24"/>
+  <circle cx="94" cy="34" r="2" fill="#fbbf24"/>
+</svg>
